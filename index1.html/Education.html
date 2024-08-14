@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a.logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        header nav a.active,
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        section.education {
+            padding: 50px;
+            background-color: #fff;
+        }
+
+        section.education h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 32px;
+            color: #333;
+        }
+
+        .education-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        .education-item {
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .education-item h3 {
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .education-item p {
+            margin: 0;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">PORTFOLIO</a>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="Services.html">Services</a>
+            <a href="Skill.html">Skills</a>
+            <a href="Education.html">Education</a>
+            <a href="#">Experience</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul class="education-list">
+            <li class="education-item">
+                <h3>Secondary School</h3>
+                <p>Completed my secondary school education with a strong foundation in core subjects.</p>
+            </li>
+            <li class="education-item">
+                <h3>Intermediate</h3>
+                <p>Studied intermediate with a focus on [SCIENCE], honing my skills in [CS].</p>
+            </li>
+            <li class="education-item">
+                <h3>Graduation</h3>
+                <p>I graduated with a BCA from PSIT college, where I developed a deep understanding of web development.
+                .</p>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
